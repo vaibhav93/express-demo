@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/scratch/node-v0.10.38-linux-x64/bin/node',
+1 verbose cli   '/scratch/node-v0.10.38-linux-x64/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '--python=/home/vaibhban/Python-2.7/bin/python',
+1 verbose cli   'oracledb' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose cache add [ 'oracledb', null ]
+5 verbose cache add name=undefined spec="oracledb" args=["oracledb",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'oracledb',
+6 verbose parsed url   path: 'oracledb',
+6 verbose parsed url   href: 'oracledb' }
+7 silly lockFile 0c79a30a-oracledb oracledb
+8 verbose lock oracledb /home/vaibhban/.npm/0c79a30a-oracledb.lock
+9 silly lockFile 0c79a30a-oracledb oracledb
+10 error Error: Attempt to unlock oracledb, which hasn't been locked
+10 error     at unlock (/scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/lib/utils/locker.js:44:11)
+10 error     at cb (/scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/lib/cache/add-local.js:30:5)
+10 error     at /scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/lib/cache/add-local.js:47:20
+10 error     at /scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/lib/utils/locker.js:30:7
+10 error     at cb (/scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+10 error     at /scratch/node-v0.10.38-linux-x64/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+10 error     at Object.oncomplete (fs.js:108:15)
+11 error If you need help, you may report this *entire* log,
+11 error including the npm and node versions, at:
+11 error     <http://github.com/npm/npm/issues>
+12 error System Linux 2.6.39-400.215.10.el5uek
+13 error command "/scratch/node-v0.10.38-linux-x64/bin/node" "/scratch/node-v0.10.38-linux-x64/bin/npm" "install" "-g" "--python=/home/vaibhban/Python-2.7/bin/python" "oracledb"
+14 error cwd /scratch/express/demo_app
+15 error node -v v0.10.38
+16 error npm -v 1.4.28
+17 verbose exit [ 1, true ]
